@@ -2,3 +2,8 @@ body {
     background: rgb(231, 181, 87);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+ul li:hover,
+ul li a:hover {
+    color: rgb(237, 237, 202);
+}
