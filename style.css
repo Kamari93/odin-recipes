@@ -1,9 +1,37 @@
 body {
-    background: rgb(231, 181, 87);
+    /* background: rgb(231, 181, 87); */
+    background: rgb(224, 224, 168);
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
 }
 
-ul li:hover,
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+li {
+    margin-right: 10px;
+    /* background: rgb(210, 153, 48); */
+    background: rgb(246, 246, 243);
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid rgb(62, 62, 4);
+}
+
+a {
+    color: rgb(68, 68, 7);
+    text-decoration: none;
+}
+
 ul li a:hover {
-    color: rgb(237, 237, 202);
+    color: rgb(244, 183, 52);
+}
+
+.pic {
+    border-radius: 10px;
 }
